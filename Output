@@ -1,0 +1,42 @@
+First 5 rows:
+    Experience  Education  Age  Bonus  Salary
+0           1          1   22   2000   20000
+1           2          1   25   3000   25000
+2           3          2   28   4000   30000
+3           4          2   30   5000   35000
+4           5          3   35   7000   45000
+
+Basic stats:
+        Experience  Education        Age         Bonus        Salary
+count     8.00000   8.000000   8.000000      8.000000      8.000000
+mean      4.50000   2.500000  34.375000   6000.000000  41250.000000
+std       2.44949   1.195229   9.927415   2927.700219  16420.805618
+min       1.00000   1.000000  22.000000   2000.000000  20000.000000
+25%       2.75000   1.750000  27.250000   3750.000000  28750.000000
+50%       4.50000   2.500000  32.500000   6000.000000  40000.000000
+75%       6.25000   3.250000  41.250000   8250.000000  52500.000000
+max       8.00000   4.000000  50.000000  10000.000000  65000.000000
+
+--- RESULTS ---
+
+Linear Regression
+MSE: 24999999.99998836
+MAE: 4999.999999998836
+
+KNN Model
+MSE: 231250000.0
+MAE: 15000.0
+
+--- ACTUAL VS PREDICTION ---
+
+Employee 1
+Actual Salary: 60000
+Linear Regression: 55000.000000001324
+KNN Prediction: 47500.0
+
+Employee 2
+Actual Salary: 65000
+Linear Regression: 60000.000000001004
+KNN Prediction: 47500.0
+
+=== Code Execution Successful ===
